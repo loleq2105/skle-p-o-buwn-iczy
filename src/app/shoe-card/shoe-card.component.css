@@ -9,7 +9,7 @@
     height: 250px;
 }
 
-.shoe-card .shoe-card-img-box img, .shoe-card .shoe-card-img-box div{
+.shoe-card .shoe-card-img-box *{
     position: absolute;
 }
 
@@ -41,6 +41,7 @@
 
 .shoe-card .shoe-card-details-upper, .shoe-card .shoe-card-details-lower{
     color: #666;
+    font-size: 14px;
 }
 
 .shoe-card .shoe-card-details-upper{

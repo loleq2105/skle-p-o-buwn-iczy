@@ -19,4 +19,22 @@ export const SHOES: Shoe[] = [
     purpose: 'Fighting',
     brand: 'Nike'
   },
+  {
+    photoUrl: 'but3.png',
+    price: 140,
+    name: 'Air Jeremy 60',
+    numberOfColors: 4,
+    gender: 'men',
+    purpose: 'Sitting',
+    brand: 'Nike'
+  },
+  {
+    photoUrl: 'but4.png',
+    price: 200,
+    name: 'Gronkle Skoog 7',
+    numberOfColors: 3,
+    gender: 'women',
+    purpose: 'Hunting',
+    brand: 'Nike'
+  },
 ];
