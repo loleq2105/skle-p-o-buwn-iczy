@@ -1,0 +1,48 @@
+.shoe-card{
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+
+.shoe-card .shoe-card-img-box{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.shoe-card .shoe-card-img-box img, .shoe-card .shoe-card-img-box div{
+    position: absolute;
+}
+
+.shoe-card .shoe-card-img-box .product-photo {
+    position: absolute;
+    width: 100%;
+}
+
+.shoe-card .shoe-card-img-box .heart {
+    position: absolute;
+    width: 25px;
+    margin: 10px;
+}
+
+.shoe-card .shoe-card-img-box .shoe-card-price {
+    position: absolute;
+    background-color: #333;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    left: 0;
+    bottom: 0;
+}
+
+.shoe-card .shoe-card-name{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.shoe-card .shoe-card-details-upper, .shoe-card .shoe-card-details-lower{
+    color: #666;
+}
+
+.shoe-card .shoe-card-details-upper{
+    text-transform: uppercase;
+}

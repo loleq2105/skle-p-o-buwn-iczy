@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Shoe } from './shoe-model';
+import { SHOES } from './shoes-data';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'skle-p-o-buwn-iczy';
+  title = 'Sklep Obuwniczy';
+  shoes: Shoe[] = SHOES;
 }

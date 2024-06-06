@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .shoe-card{
+            border: 1px solid gainsboro;
+            padding: 10px;
+        }
+
+        .shoe-card .shoe-card-img-box{
+            position: relative;
+            width: 250px;
+            height: 250px;
+        }
+
+        .shoe-card .shoe-card-img-box img, .shoe-card .shoe-card-img-box div{
+            position: absolute;
+        }
+
+        .shoe-card .shoe-card-img-box .product-photo {
+            position: absolute;
+            width: 100%;
+        }
+
+        .shoe-card .shoe-card-img-box .heart {
+            position: absolute;
+            width: 25px;
+            margin: 10px;
+        }
+
+        .shoe-card .shoe-card-img-box .shoe-card-price {
+            position: absolute;
+            background-color: #333;
+            font-weight: bold;
+            color: white;
+            padding: 5px;
+            left: 0;
+            bottom: 0;
+        }
+
+        .shoe-card .shoe-card-name{
+            margin-top: 5px;
+            font-size: 16px;
+        }
+
+        .shoe-card .shoe-card-details-upper, .shoe-card .shoe-card-details-lower{
+            color: #666;
+        }
+
+        .shoe-card .shoe-card-details-upper{
+            text-transform: uppercase;
+        }
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Sklep obuwniczy</h1>
+
+    <div class="container">
+
+        <div class="shoe-card">
+            <div class="shoe-card-img-box">
+                <img src="../../public/but1.png" alt="" class="product-photo">
+                <div class="shoe-card-price">99</div>
+                <img src="../../public/heart-svgrepo-com.svg" width="50px" class="heart">
+            </div>
+            <div class="shoe-card-name">Destroyers  450x</div>
+            <div class="shoe-card-details-upper">nike | WOMAN | SITTING</div>
+            <div class="shoe-card-details-lower">3 colors | whatever</div>
+
+        </div>
+    </div>
+    
+
+</body>
+</html>
